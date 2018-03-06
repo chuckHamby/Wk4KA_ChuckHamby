@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Reunion Photos</title>
+</head>
+<body>
+<div id="container">
+    <div id="content">
+        <form action="ReunionUpload.php" method="post">
+            <label>Image Name:</label>
+            <br />
+            <input type="text" name="name" value=""/>
+            <br />
+            <label>Image Description:</label>
+            <br />
+            <textarea col="40" rows="10" name="description"></textarea>
+            <br />
+            <label>Image: </label>
+            <input type="file" id="guestImage" name="guestImage"/>
+            <br/>
+            <input type="submit" value="Save"/>
+            <br />
+        </form>
+    </div>
+</div>
+</body>
+</html>
