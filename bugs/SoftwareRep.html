@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Software Bug Reporting</title>
 </head>
+<header>
+
+    <h1>Enter the details of your bug report below:</h1>
+</header>
 <body>
 <div id=content">
     <form action="SoftwareRep.php" method="post" enctype="multipart/form-data">
@@ -64,7 +68,12 @@
             </tr>
         </table>
         <br/>
-        <input type="submit" value="save"/>
+        <input type="submit" value="Submit Report"/>
+        <br/><br/><br/>
+    </form>
+    <form action="SoftwareListing.php" method="post" enctype="multipart/form-data">
+        <p>To view all bug reports click button below</p><br/>
+        <button onclick="window.location.href='/SoftwareListing.php'">Show Bug Report</button>
     </form>
 </div>
 </body>

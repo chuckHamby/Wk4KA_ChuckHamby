@@ -15,11 +15,8 @@ function saveImage() {
     $rawFileName = $_FILES["guestImage"]["name"];
     $fileTmpName = $_FILES["guestImage"]["tmp_name"];
     $fileName = strtolower($rawFileName);
-    if (!file_exists("reunion/images"))
-    {
-        mkdir("reunion/images");
-    }
-    move_uploaded_file($fileTmpName, "reunion/images" . "/{$fileName}");
+
+    move_uploaded_file($fileTmpName, $_SERVER["reunion/images/"] . "{$fileName}");
     return $fileName;
 }
 
