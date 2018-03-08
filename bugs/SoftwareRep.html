@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Software Bug Reporting</title>
+</head>
+<body>
+<div id=content">
+    <form action="SoftwareRep.php" method="post" enctype="multipart/form-data">
+        <table>
+
+            <tr>
+                <th>
+                    <label>Product Name:</label>
+                </th>
+                <th>
+                    <input type="text" name="pName" value=""/><br/>
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <label>Product Version:</label>
+                </th>
+                <th>
+                    <input type="text" name="pVer" value=""/><br/>
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <label>Operating Environment:</label>
+                </th>
+                <th>
+                    <input type="text" name="opEnv" value=""/><br/>
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <label>Operating System:</label>
+                </th>
+                <th>
+                    <input type="text" name="OS" value=""/><br/>
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <label>Bug Frequency:</label>
+                </th>
+                <th>
+                    <input type="text" name="bFreq" value=""/><br/>
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <label>Proposed Solutions:</label>
+                </th>
+                <th>
+                    <input type="text" name="sol" value=""/><br/>
+                </th>
+            </tr>
+        </table>
+        <br/>
+        <input type="submit" value="save"/>
+    </form>
+</div>
+</body>
+</html>
