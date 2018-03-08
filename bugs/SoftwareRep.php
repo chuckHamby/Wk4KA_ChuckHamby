@@ -59,36 +59,36 @@ $msgs= array();
 
 if(empty($pName))
 {
-    array_push($msgs, "invalid Product Name");
+    array_push($msgs, "Invalid Product Name");
 }
 
 if(empty($pVer))
 {
-    array_push($msgs, "invalid Product Version");
+    array_push($msgs, "Invalid Product Version");
 
 }
 
 if(empty($opEnv))
 {
-    array_push($msgs, "invalid Operating Environment");
+    array_push($msgs, "Invalid Operating Environment");
 
 }
 
 if(empty($OS))
 {
-    array_push($msgs, "invalid Operating System");
+    array_push($msgs, "Invalid Operating System");
 
 }
 
 if(empty($bFreq))
 {
-    array_push($msgs, "invalid Bug Frequency");
+    array_push($msgs, "Invalid Bug Frequency");
 
 }
 
 if(empty($sol))
 {
-    array_push($msgs, "invalid Solution");
+    array_push($msgs, "Invalid Solution");
 
 }
 
@@ -126,7 +126,7 @@ else
 
 <html>
 <head>
-    <title>Worms?</title>
+    <title>Bug Report</title>
 </head>
 <body>
 <div id="container">
